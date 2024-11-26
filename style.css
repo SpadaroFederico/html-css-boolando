@@ -5,7 +5,7 @@
 }
 
 .header-container{
-    background-color: orange;
+    background-color: hsl(23, 100%, 54%);
     color: white;
     padding: 30px;
     text-align: center;
@@ -14,6 +14,7 @@
     justify-content: space-between;
 }
 
+/* regole primo blocco header */
 .header-block1{
     /* DEBUG */
     /* background-color: blue; */
@@ -26,6 +27,7 @@
     display: flex;
 }
 
+/* regole secondo blocco header */
 .header-block2{
     /* DEBUG */
     /* background-color: blue; */
@@ -36,6 +38,7 @@
     display: flex;
 }
 
+/* regole terzo blocco header */
 .header-block3{
     /* DEBUG */
     /* background-color: blue; */
@@ -47,6 +50,7 @@
     align-items: center;
 }
 
+/* regole tutti i prodotti */
 .all-products{
     display: flex;
     flex-wrap: wrap;
@@ -62,13 +66,50 @@
     
     max-width: 40%;
     width: 30%;
-    margin-bottom: 80px;    
+    margin-bottom: 30px;    
 }
 
+/* dimesione immagini prodotti */
 .product img{
     max-width: 100%;
 }
+/* regole testo prodotti */
+.text-below{
+    display: flex;   
+}
 
+/* regole prezzo corrente */
+.current-price{
+    color: orangered;
+    float: left;
+}
+/* regole sconto */
+.discount{
+    float: left;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.Discount-lable{
+    width: 5%;
+    padding: 8px;
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+}
+
+.heart{
+
+}
+
+.lable-sostenibilità{
+
+}
+
+/* regole footer */
 footer{
     height: 80px;
     background-color: black;
@@ -80,6 +121,7 @@ footer{
     align-items: center;
 }
 
+/* regole primo blocco footer */
 .footer-block1{
     background-color: blue;
     height: 30px;
@@ -87,6 +129,7 @@ footer{
     display: flex;
 }
 
+/* regole secondo blocco footer */
 .footer-block2{
     background-color: blue;
     height: 30px;
