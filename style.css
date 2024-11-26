@@ -49,3 +49,27 @@
     border: 3px black solid;
 }
 
+footer{
+    height: 60px;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-block1{
+    background-color: blue;
+    height: 30px;
+    width: 20%;
+    display: flex;
+}
+
+.footer-block2{
+    background-color: blue;
+    height: 30px;
+    width: 20%;
+    display: flex;
+}
