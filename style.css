@@ -101,13 +101,108 @@
     top: 700px;
 }
 
-.heart{
-
+.Discount-lable2{
+    width: 5%;
+    padding: 8px;
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 1450px;
 }
 
 .lable-sostenibilità{
-
+    width: 10%;
+    padding: 8px;
+    background-color: rgb(79, 168, 34);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 700px;
+    right: 1260px;
 }
+
+.lable-sostenibilità2{
+    width: 10%;
+    padding: 8px;
+    background-color: rgb(79, 168, 34);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 1450px;
+    right: 1260px;
+}
+
+.lable-sostenibilità3{
+    width: 10%;
+    padding: 8px;
+    background-color: rgb(79, 168, 34);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 1450px;
+}
+
+.heart{
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+    left: 427px;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.heart2{
+    font-size: 40px;
+    position: absolute;
+    top: 900px;
+    left: 427px;
+    
+    padding: 15px;
+    background-color: #fff;
+}
+
+.img-b{
+position: absolute;
+top: 120px;
+left: 25px;
+max-width: 30%;
+display: none;
+}
+
+.product:hover .img-b{
+    display: block;
+}
+
+.img-b2{
+    position: absolute;
+    top: 120px;
+    left: 530px;
+    max-width: 30%;
+    display: none;
+}
+
+.product:hover .img-b2{
+    display: block;
+}
+
+.img-b3{
+    position: absolute;
+    top: 120px;
+    left: 1038px;
+    max-width: 30%;
+    display: none;
+}
+
+.product:hover .img-b3{
+    display: block;
+}
+
+
 
 /* regole footer */
 footer{
