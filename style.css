@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .header-container{
     background-color: hsl(23, 100%, 54%);
     color: white;
@@ -12,6 +18,8 @@
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    z-index: 1000;
 }
 
 /* regole primo blocco header */
@@ -238,7 +246,7 @@ display: none;
 
 /* regole footer */
 footer{
-    height: 80px;
+    height: 150px;
     background-color: black;
     padding: 30px;
     text-align: center;
@@ -250,7 +258,11 @@ footer{
 
 /* regole primo blocco footer */
 .footer-block1{
-    background-color: blue;
+    /* DEBUG */
+    /* background-color: blue; */
+    margin-left: 150px;
+    font-size: 16px;
+    color: #fff;
     height: 30px;
     width: 20%;
     display: flex;
@@ -258,8 +270,15 @@ footer{
 
 /* regole secondo blocco footer */
 .footer-block2{
-    background-color: blue;
+    /* DEBUG */
+    /* background-color: blue; */
+    color: #fff;
     height: 30px;
     width: 20%;
     display: flex;
+}
+
+.text-footer{
+    display: flex;
+    margin-top: 20px;
 }
