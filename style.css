@@ -202,6 +202,38 @@ display: none;
     display: block;
 }
 
+.img-b4{
+    position: absolute;
+    top: 870px;
+    max-width: 30%;
+    display: none;
+}
+
+.product:hover .img-b4{
+    display: block;
+}
+
+.img-b5{
+    position: absolute;
+    top: 870px;
+    max-width: 30%;
+    display: none;
+}
+
+.product:hover .img-b5{
+    display: block;
+}
+
+.img-b6{
+    position: absolute;
+    top: 870px;
+    max-width: 30%;
+    display: none;
+}
+
+.product:hover .img-b6{
+    display: block;
+}
 
 
 /* regole footer */
